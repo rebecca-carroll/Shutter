@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* ---------- RESET ---------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------------------------- GENERAL -------------------------------------- */
+
+body {
+    background-color: #333333;
+    color: #eeeeee;
+    font: 16px Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #2065ff;
+}
+
+a:hover {
+    color: #ff2065;
+}
+
+#wrapper {
+    background-color: #242424;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 10px;
+    width: 660px;
+}
+
+/* -------------------------------------- HEADER -------------------------------------- */
+
+header {
+    height: 37px;
+    line-height: 37px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+header #title {
+    float: left;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+header #title a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+header #motto {
+    float: right;
+}
+
+/* -------------------------------------- CONTENT -------------------------------------- */
+
+#content {
+    overflow: hidden;
+    text-align: center;
+}
+
+#content #render {
+    border: 5px solid #eeeeee;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#content #caption:before, #content #caption:after {
+    color: #2065ff;
+    content: '"';
+    font-size: 1.5em;
+    margin: 0 5px;
+}
+
+#content #controls {
+    margin-top: 10px;
+}
+
+#content #controls a {
+    background-color: #eeeeee;
+    color: #2065ff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 5px;
+    padding: 0 5px;
+    text-decoration: none;
+    width: 72px;
+}
+
+#content #controls a:hover {
+    background-color: #2065ff;
+    color: #eeeeee;
+}
+
+/* -------------------------------------- FOOTER -------------------------------------- */
+
+footer {
+    font-size: 0.75em;
+    padding-top: 10px;
+    text-align: center;
+}
