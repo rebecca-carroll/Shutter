@@ -71,7 +71,9 @@ body {
 a {
     color: #2065ff;
 }
-
+a:link{
+    color: #2065ff;
+}
 a:hover {
     color: #ff2065;
 }
